@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>系列鏡框 Optical</title>
+    <link rel="stylesheet" href="../assets/css/all.css" />
+  </head>
+  <body>
+    <!-- header-navigation -->
+    <%- include('./layout/header'); -%>
+
+    <!-- glasses-nav -->
+    <div class="container container-md-fluid-px-0 container-sm-fluid-px-0">
+      <ul class="glasses-nav-list d-flex justify-content-center">
+        <li class="glasses-nav-list-item-1">
+          <a
+            class="glasses-nav-list-item-link glasses-nav-list-item-1-active"
+            href=""
+            >OPTICAL</a
+          >
+        </li>
+        <li class="glasses-nav-list-item-2">
+          <a class="glasses-nav-list-item-link" href="">SUNGLASSES</a>
+        </li>
+        <li class="glasses-nav-list-item-3">
+          <a class="glasses-nav-list-item-link" href="">FUNCTIONAL</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- banner -->
+    <section class="d-flex">
+      <img
+        class="banner-img"
+        src="../assets/images/product-header-1.png"
+        alt="banner-img-1"
+      />
+      <img
+        class="banner-img"
+        src="../assets/images/product-header-2.png"
+        alt="banner-img-2"
+      />
+    </section>
+
+    <!-- footer -->
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

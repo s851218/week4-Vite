@@ -1,0 +1,46 @@
+// colors
+$color-primary: #aa0601;
+$color-secondary: #fbf2f2;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-gray: #555555;
+$color-dark-red: #650300;
+$color-brown: #5f3e2d;
+$color-burn-orange: #b75929;
+
+//font-size
+$font-size-base: 1rem; //16px
+$font-size-1: $font-size-base * 4; //64px
+$font-size-2: $font-size-base * 3; //48px
+$font-size-3: $font-size-base * 2.625; //42px
+$font-size-4: $font-size-base * 2.25; //36px
+$font-size-5: $font-size-base * 2; //32px
+$font-size-6: $font-size-base * 1.5; //24px
+$font-size-7: $font-size-base * 1.25; //20px
+$font-size-8: $font-size-base * 1.125; //18px
+$font-size-9: $font-size-base; //16px
+$font-size-10: $font-size-base * 0.875; //14px
+
+//font-family
+$font-family-base: "Roboto", "Noto Sans TC", sans-serif;
+
+//font-weight
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+//line-height
+$lh-base: 1.5;
+
+//grid
+$gutter-width: 24px;
+$gutter-sum: 12;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
