@@ -1140,4 +1140,12 @@ a {
 }
 .paginator-group-item-next:hover {
   background: #f2f2f2;
+}
+
+.glasses-nav-list-item-2-active {
+  border-bottom: 8px solid #aa0601;
+}
+
+.glasses-nav-list-item-link:hover {
+  border-bottom: 8px solid #aa0601;
 }/*# sourceMappingURL=all.css.map */
