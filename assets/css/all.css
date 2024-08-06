@@ -657,11 +657,15 @@ a {
   }
   .col-md-6 {
     width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 @media screen and (max-width: 576px) {
   .col-sm-12 {
     width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 .bg-nav {
@@ -1041,6 +1045,99 @@ a {
 
 .banner-img {
   width: 50%;
+}
+
+.bg-main {
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-main {
+    padding: 40px 0 64px;
+  }
+}
+.color-box-1 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #5f3e2d;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.color-box-2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #b75929;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 992px) {
+  .mb-md-10 {
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mb-sm-6 {
+    margin-bottom: 1.5rem;
+  }
+}
+.paginator-group {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .paginator-group {
+    margin-top: 40px;
+  }
+}
+.paginator-group-item-previous {
   display: block;
-  height: auto;
+  width: 81px;
+  font-size: 19px;
+  padding: 11px 0;
+  border: 1px solid #555555;
+  color: #555555;
+}
+.paginator-group-item-previous:hover {
+  background: #f2f2f2;
+}
+.paginator-group-item {
+  display: block;
+  width: 42px;
+  padding: 12px 0;
+  font-size: 18px;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+  border-right: 1px solid #555555;
+  color: #555555;
+}
+.paginator-group-item:hover {
+  background: #f2f2f2;
+}
+.paginator-group-item-first {
+  display: block;
+  width: 42px;
+  padding: 12px 0;
+  font-size: 18px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  color: #ffffff;
+  background: #000000;
+}
+.paginator-group-item-next {
+  display: block;
+  width: 81px;
+  padding: 11px 0;
+  font-size: 19px;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+  border-right: 1px solid #555555;
+  color: #555555;
+}
+.paginator-group-item-next:hover {
+  background: #f2f2f2;
 }/*# sourceMappingURL=all.css.map */

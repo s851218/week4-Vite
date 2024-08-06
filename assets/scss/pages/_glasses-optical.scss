@@ -48,6 +48,108 @@
 // banner
 .banner-img {
   width: 50%;
-  display: block;
-  height: auto;
+}
+
+// main (Celluloid Combi 賽璐珞鈦金屬混合鏡框)
+.bg-main {
+  padding: 80px 0;
+}
+
+@include mobile {
+  .bg-main {
+    padding: 40px 0 64px;
+  }
+}
+
+.color-box-1 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #5f3e2d;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.color-box-2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #b75929;
+  border-radius: 4px;
+}
+
+@include pad {
+  .mb-md-10 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@include mobile {
+  .mb-sm-6 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+//paginator
+.paginator-group {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  @include pad {
+    margin-top: 40px;
+  }
+
+  &-item-previous {
+    display: block;
+    width: 81px;
+    font-size: 19px;
+    padding: 11px 0;
+    border: 1px solid #555555;
+    color: #555555;
+  }
+  &-item-previous:hover {
+    background: #f2f2f2;
+  }
+
+  &-item {
+    display: block;
+    width: 42px;
+    padding: 12px 0;
+    font-size: 18px;
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    border-right: 1px solid #555555;
+    color: #555555;
+  }
+  &-item:hover {
+    background: #f2f2f2;
+  }
+
+  &-item-first {
+    display: block;
+    width: 42px;
+    padding: 12px 0;
+    font-size: 18px;
+    border-top: 1px solid $color-black;
+    border-bottom: 1px solid $color-black;
+    border-right: 1px solid $color-black;
+    color: $color-white;
+    background: $color-black;
+  }
+
+  &-item-next {
+    display: block;
+    width: 81px;
+    padding: 11px 0;
+    font-size: 19px;
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    border-right: 1px solid #555555;
+    color: #555555;
+  }
+
+  &-item-next:hover {
+    background: #f2f2f2;
+  }
 }
