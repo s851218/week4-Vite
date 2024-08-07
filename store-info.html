@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>系列鏡框 Sunglasses</title>
+    <title>門市據點-台北中山旗艦店</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     
     <script type="module" crossorigin src="/week4-Vite/assets/main-9f211217.js"></script>
     <link rel="stylesheet" href="/week4-Vite/assets/all-1d761265.css">
@@ -42,162 +46,62 @@
   </div>
 </nav>
 
-    <!-- glasses-nav -->
-    <div class="container container-md-fluid-px-0 container-sm-fluid-px-0">
-      <ul class="glasses-nav-list d-flex justify-content-center">
-        <li class="glasses-nav-list-item-1">
-          <a class="glasses-nav-list-item-link" href="glasses-optical.html"
-            >OPTICAL</a
-          >
-        </li>
-        <li class="glasses-nav-list-item-2">
-          <a
-            class="glasses-nav-list-item-link glasses-nav-list-item-2-active"
-            href="#"
-            >SUNGLASSES</a
-          >
-        </li>
-        <li class="glasses-nav-list-item-3">
-          <a class="glasses-nav-list-item-link" href="#">FUNCTIONAL</a>
-        </li>
-      </ul>
-    </div>
+    <section class="bg-store">
+      <main class="container container-xl container-md container-sm">
+        <h3 class="store-title">門市據點</h3>
+        <div>
+          <label class="font-size-6 me-4" for="district">選擇分店</label
+          ><select class="district-selector" name="district" id="district">
+            <option value="Taipei">
+              <a href="store-info.html">台北中山旗艦店</a>
+            </option>
+            <option value="Taipei">台北綠園店</option>
+            <option value="Taichung">台中清水旗艦店</option>
+            <option value="Kaohsiung">高雄中正形象店</option>
+            <option value="Kaohsiung">高雄夢時代店</option>
+          </select>
+        </div>
 
-    <!-- banner -->
-    <section>
-      <ul class="d-flex">
-        <li class="banner-img">
-          <picture>
-            <source
-              srcset="/week4-Vite/assets/product-header-sm-3-4d38c089.png "
-              media="(max-width: 767px)"
-              style="width: 100%"
-            />
+        <div class="row mt-10">
+          <div class="col-5 col-md-12 col-sm-12 store-info">
+            <div class="md-w50 sm-w100">
+              <img src="/week4-Vite/assets/store-1-e8e7cac3.png" alt="台北中山旗艦店" />
+            </div>
+
+            <div class="store-info-contnet">
+              <h4 class="store-card-title">台北中山旗艦店</h4>
+              <ul class="store-card-info">
+                <li class="d-flex align-items-center mb-2">
+                  <span class="material-icons-outlined"> call </span
+                  ><span class="font-size-7 ms-2">電話：(02)000-1234</span>
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                  <span class="material-icons-outlined"> schedule </span>
+                  <span class="font-size-7 ms-2">營業時間：10:00-21:00</span>
+                </li>
+                <li class="d-flex">
+                  <span
+                    class="material-icons-outlined"
+                    style="padding-top: 2px"
+                  >
+                    place
+                  </span>
+                  <span class="font-size-7 ms-2"
+                    >地址：台北市中山區南京東路25巷2-1號</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- google map -->
+          <div class="col-7 col-md-12 col-sm-12 google-map-1">
             <img
-              src="/week4-Vite/assets/product-header-3-93e97d5b.png"
-              alt="a glasses on the beach"
+              src="/week4-Vite/assets/螢幕快照 2020-02-13 16.35.44-534f1e04.png"
+              alt="google map"
             />
-          </picture>
-        </li>
-        <li class="banner-img">
-          <picture>
-            <source
-              srcset="/week4-Vite/assets/product-header-sm-4-2f9c0fb5.png "
-              media="(max-width: 767px)"
-              style="width: 100%"
-            />
-            <img
-              src="/week4-Vite/assets/product-header-4-f1b40d06.png"
-              alt="a lady with sunglasses"
-            />
-          </picture>
-        </li>
-      </ul>
-    </section>
-
-    <!-- (main) 2020 NEW COLLECTION 賽璐珞鈦金屬混合鏡框 -->
-    <section class="bg-main">
-      <main class="container container-md container-sm">
-        <h2 class="text-center font-size-3 mb-8">
-          2020 NEW COLLECTION <br /><span class="font-size-5"
-            >賽璐珞鈦金屬混合鏡框</span
-          >
-        </h2>
-        <ul class="row">
-          <li
-            class="col-4 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6"
-          >
-            <div class="card">
-              <img src="/week4-Vite/assets/product-7-d12814bd.png" alt="sunglasses" />
-              <div class="d-flex">
-                <span class="font-size-6">BJ41600S</span
-                ><span class="ms-auto font-size-6 color-primary">NTD3,490</span>
-              </div>
-              <div>
-                <span class="color-box-1"></span
-                ><span class="color-box-2"></span>
-              </div>
-            </div>
-          </li>
-          <li class="col-4 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6">
-            <div class="card">
-              <img src="/week4-Vite/assets/product-8-9da5a941.png" alt="sunglasses" />
-              <div class="d-flex">
-                <span class="font-size-6">BJ41600S</span
-                ><span class="ms-auto font-size-6 color-primary">NTD3,490</span>
-              </div>
-              <div>
-                <span class="color-box-1"></span
-                ><span class="color-box-2"></span>
-              </div>
-            </div>
-          </li>
-          <li class="col-4 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6">
-            <div class="card">
-              <img src="/week4-Vite/assets/product-9-0e90356e.png" alt="sunglasses" />
-              <div class="d-flex">
-                <span class="font-size-6">BJ41600S</span
-                ><span class="ms-auto font-size-6 color-primary">NTD3,490</span>
-              </div>
-              <div>
-                <span class="color-box-1"></span
-                ><span class="color-box-2"></span>
-              </div>
-            </div>
-          </li>
-          <li class="col-4 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6">
-            <div class="card">
-              <img src="/week4-Vite/assets/product-10-dc3e0f3f.png" alt="sunglasses" />
-              <div class="d-flex">
-                <span class="font-size-6">BJ41600S</span
-                ><span class="ms-auto font-size-6 color-primary">NTD3,490</span>
-              </div>
-              <div>
-                <span class="color-box-1"></span
-                ><span class="color-box-2"></span>
-              </div>
-            </div>
-          </li>
-          <li class="col-4 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6">
-            <div class="card">
-              <img src="/week4-Vite/assets/product-11-0f8ac353.png" alt="sunglasses" />
-              <div class="d-flex">
-                <span class="font-size-6">BJ41600S</span
-                ><span class="ms-auto font-size-6 color-primary">NTD3,490</span>
-              </div>
-              <div>
-                <span class="color-box-1"></span
-                ><span class="color-box-2"></span>
-              </div>
-            </div>
-          </li>
-          <li class="col-4 col-md-6 col-sm-12 mb-20 mb-md-10 mb-sm-6">
-            <div class="card">
-              <img src="/week4-Vite/assets/product-12-995bcd13.png" alt="sunglasses" />
-              <div class="d-flex">
-                <span class="font-size-6">BJ41600S</span
-                ><span class="ms-auto font-size-6 color-primary">NTD3,490</span>
-              </div>
-              <div>
-                <span class="color-box-1"></span
-                ><span class="color-box-2"></span>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <!-- paginator-group -->
-        <ul class="paginator-group">
-          <li><a class="paginator-group-item-previous" href="#">上一頁</a></li>
-          <li>
-            <a class="paginator-group-item-first" href="#">1</a>
-          </li>
-          <li><a class="paginator-group-item" href="#">2</a></li>
-          <li><a class="paginator-group-item" href="#">3</a></li>
-          <li><a class="paginator-group-item" href="#">4</a></li>
-          <li><a class="paginator-group-item" href="#">5</a></li>
-          <li><a class="paginator-group-item-next" href="#">下一頁</a></li>
-        </ul>
+          </div>
+        </div>
       </main>
     </section>
 
