@@ -5,6 +5,14 @@
   padding: 0 12px;
 }
 
+@include pad-lg {
+  .container-xl {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
+}
+
 @include pad {
   .container-md {
     max-width: 720px;
@@ -68,9 +76,23 @@
   padding-right: 12px;
 }
 
+.col-5 {
+  width: 41.6667%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-7 {
+  width: 58.3333%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 @include pad {
   .col-md-12 {
     width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .col-md-6 {

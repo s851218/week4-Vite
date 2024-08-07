@@ -1,0 +1,48 @@
+.store-info {
+  @include pad {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  @include mobile {
+    display: block;
+  }
+
+  &-1 {
+    margin-right: 24px;
+    @include pad-lg {
+      display: flex;
+    }
+  }
+
+  @include pad {
+    .md-w50 {
+      width: 50%;
+    }
+  }
+
+  .store-info-contnet {
+    @include pad {
+      width: 50%;
+      flex-direction: column;
+    }
+
+    @include mobile {
+      width: 100%;
+      flex-direction: row;
+    }
+  }
+
+  .google-map-1 {
+    @include pad {
+      margin-top: 24px;
+    }
+  }
+
+  @include mobile {
+    .sm-w100 {
+      width: 100%;
+    }
+  }
+}
