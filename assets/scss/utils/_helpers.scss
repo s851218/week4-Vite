@@ -348,7 +348,7 @@
   gap: 24px;
 }
 
-.gap-3 {
+.gap-4 {
   gap: 16px;
 }
 
@@ -367,6 +367,10 @@
 //text-align
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: left;
 }
 
 //font-size
@@ -446,6 +450,10 @@
 // font-weight
 .font-weight-normal {
   font-weight: $font-weight-normal;
+}
+
+.font-weight-medium {
+  font-weight: $font-weight-medium;
 }
 
 .font-weight-bold {

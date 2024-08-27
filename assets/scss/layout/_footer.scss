@@ -27,6 +27,14 @@
     transition: color 0.15s ease-in-out;
   }
 
+  .footer-hover {
+    color: $color-white;
+    &:hover {
+      color: $color-dark-red;
+      transition: color 0.15s ease-in-out;
+    }
+  }
+
   @include mobile-lg {
     .bg-footer {
       padding: 24px 0;

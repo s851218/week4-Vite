@@ -7,9 +7,14 @@
     margin: 0 auto;
 
     .logo {
+      background-image: url(/assets/images/logo-white.png);
       width: 80px;
       height: 49px;
       display: block;
+      background-size: cover;
+      text-indent: 101%;
+      white-space: nowrap;
+      overflow: hidden;
     }
   }
 

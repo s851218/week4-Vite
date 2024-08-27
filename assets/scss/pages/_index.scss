@@ -34,7 +34,7 @@
   .banner-title-1 {
     font-size: $font-size-4;
     color: $color-dark-red;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
 
     @include mobile {
       font-size: $font-size-base;
@@ -66,10 +66,6 @@
 @include mobile {
   .bg-professional {
     padding: 40px 0;
-  }
-
-  .gap-sm-24 {
-    gap: 24px;
   }
 }
 
@@ -117,7 +113,8 @@
 .bg-co {
   background-image: url(../images/index-bg.png);
   max-width: 100%;
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
   @include mobile {
     background-image: url(../images/index-bg-sm.png);
@@ -158,10 +155,6 @@
   @include pad {
     flex-wrap: wrap;
   }
-
-  @include mobile {
-    flex-wrap: wrap;
-  }
 }
 
 .co-title {
@@ -184,7 +177,8 @@
 
 //customer-recommendation
 .bg-customer {
-  padding: 80px 12px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .customer {
@@ -196,6 +190,11 @@
     flex-direction: column;
     height: 205px;
     padding: 16px;
+  }
+
+  .comment-date {
+    font-size: $font-size-10;
+    color: #707070;
   }
 }
 
@@ -221,10 +220,14 @@
 .input {
   width: 100%;
   margin-bottom: 16px;
+  padding: 6px 12px;
+  background: transparent;
 }
 
 .opinion {
   width: 100%;
   padding-bottom: 100px;
   margin-bottom: 16px;
+  padding: 6px 12px;
+  background: transparent;
 }

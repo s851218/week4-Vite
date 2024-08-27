@@ -2,18 +2,20 @@
   &-item-1 {
     text-align: center;
     width: 33.33333%;
-    border-left: 2px solid #dcdcdc;
+    border: 1px solid #dcdcdc;
     &-active {
+      border-bottom: 8px solid $color-primary;
+    }
+    &:hover {
       border-bottom: 8px solid $color-primary;
     }
   }
   &-item-2 {
     text-align: center;
     width: 33.33333%;
-    border-left: 2px solid #dcdcdc;
-    border-right: 2px solid #dcdcdc;
+    border: 1px solid #dcdcdc;
 
-    .glasses-nav-list-item-link:hover {
+    &:hover {
       border-bottom: 8px solid $color-primary;
     }
   }
@@ -21,20 +23,22 @@
   &-item-3 {
     text-align: center;
     width: 33.33333%;
-    border-right: 2px solid #dcdcdc;
+    border: 1px solid #dcdcdc;
 
-    .glasses-nav-list-item-link:hover {
+    &:hover {
       border-bottom: 8px solid $color-primary;
     }
   }
 
   &-item-link {
     display: block;
-    padding: 24px 0 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: -8px;
     font-size: $font-size-5;
     font-weight: $font-weight-medium;
     color: $color-black;
-    text-align: center;
+
     @include pad {
       font-size: $font-size-6;
       padding: 16px 0 8px;
